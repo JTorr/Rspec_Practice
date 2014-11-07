@@ -48,4 +48,7 @@ group :test do
   gem 'selenium-webdriver'
   gem 'launchy'
   gem 'simplecov'
+  gem 'cucumber-rails', :require => false
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
 end
